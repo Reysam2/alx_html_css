@@ -66,6 +66,10 @@ button {
 
 /*///////////////////////Modules///////////////////////*/
 
+:root {
+--bg-purple: #C271FF;
+}
+
 /*header*/
 
 .header {
@@ -109,7 +113,7 @@ button {
 }
 
 .nav__link:hover {
-  color: #C271FF;
+  color: var(--bg-purple);
   transition: all 0.18s ease;
 }
 
@@ -172,8 +176,9 @@ button {
 
 .sect1__btn {
   padding: 1rem 1.5rem;
-  background-color: #C271FF!important;
+  background-color: var(--bg-purple);
   border-radius: 30rem;
+  box-shadow: 3px 3px 4rem rgba( 0,0,0,0.8) ;
 }
 
 
@@ -198,11 +203,16 @@ height: 60rem;
   align-items: center;
   /* background-color:pink; */
  margin-top: 2rem;
+ 
 }
 
-/* .sect1__pro-heading {
-
-} */
+.sect1__pro-heading {
+font-weight: 300;
+}
+ .sect1__pro-heading-span {
+  color:var(--bg-purple);
+  font-weight: 700;
+ }
 
 .sect1__pro {
   /* background:rgb(81, 191, 81); */
