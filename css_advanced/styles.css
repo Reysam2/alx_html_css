@@ -259,8 +259,8 @@ button {
   width: 74%;
 }
 
-.pro-item__info-text {
-}
+/* .pro-item__info-text {
+} */
 
 /* Quote*/
 .main__sect2 {
@@ -613,10 +613,10 @@ align-items: center;
   justify-content: space-between ;
 
 }
-
-.footer__nav-logo-block {
+/* 
+.footer__nav-logo-block { */
   /* background:orange; */
-}
+/* } */
 
 .social__icons {
   width:20rem;
