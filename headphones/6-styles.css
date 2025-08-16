@@ -365,35 +365,25 @@
 
     .result__pent-img-blk {
       min-height: 80%;
-      width: 100%; 
+      width: 100%;
       display: grid;
-      place-items: center; 
+      place-items: center;
       position: relative;
-      
     }
-
-    svg{
-      position: relative;
-      
-    }
-
 
     .img-txt {
       position: absolute;
-      
     }
-
-    
 
     .pent__img-heading {
       font-size: 4.5rem;
       font-weight: 700;
-      margin-top:10rem;
-      margin-bottom: 12rem;
+      margin-top: 12rem;
+      margin-bottom: 15rem;
     }
 
     .pent__img-txt {
-           margin-top:5rem;
+      margin-top: 6rem;
       font-size: clamp(1.5rem, 1vw, 2rem);
     }
 
@@ -461,7 +451,6 @@
 
       margin-top: 5rem;
     }
-
 
     /* ///////////////////////footer ////////////////// */
     .footer {
