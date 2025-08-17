@@ -368,7 +368,7 @@
     /*//////////// Our results section/////////////// */
 
     .result-blk {
-      height: 100rem;
+      min-height: 170rem;
       width: 100%;
       background: url("/assets/images/headphones_hero_2.jpg") no-repeat;
       background-size: cover;
@@ -395,7 +395,7 @@
 
     .result__info-heading {
       text-align: center;
-      font-size: 4rem;
+   font-size: clamp(3.5rem, 1.5vw, 4rem);
       color: var(--bg-white);
     }
 
@@ -410,12 +410,14 @@
     .result__img-blk {
       width: 75%;
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 25rem);
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 25rem);
+      row-gap: 3rem;;
       place-items: center;
     }
 
     .result__pent-img-blk {
+      margin-top:10rem;
       min-height: 80%;
       width: 80%;
       display: grid;
@@ -460,7 +462,7 @@
     }
 
     .pent__img-heading {
-      font-size: clamp(3.5rem, 1vw, 4.5rem);
+      font-size: clamp(2.5rem, 1vw, 4.5rem);
       font-weight: 700;
       margin-top: 12rem;
       margin-bottom: 15rem;
@@ -469,7 +471,7 @@
     .pent__img-txt {
       margin-top: 6rem;
       font-size: clamp(1.5rem, 1vw, 2rem);
-      width: 60%;
+      width: 70%;
       text-align: center;
     }
 
