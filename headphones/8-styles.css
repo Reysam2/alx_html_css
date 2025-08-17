@@ -276,22 +276,23 @@
     /*////////// what we do section /////////*/
     .wwd-blk {
       width: 100%;
-      min-height: 105rem;
+      min-height: 160rem;
       background: var(--bg-sm-white);
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      /* justify-content: center; */
     }
 
     .wwd__info-blk {
-      width: 80%;
-      height: 30rem;
+      width: 90%;
+      height: 45rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       color: var(--clr-black);
+      margin-top:7rem;
     }
 
     .wwd__info-heading-blk {
@@ -310,12 +311,12 @@
 
     .wwd__cards-blk {
       width: 88%;
-      min-height: 60rem;
+      min-height: 80rem;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-      column-gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      row-gap: 8rem;
       align-items: center;
-      justify-content: center;
+      justify-content: center; 
     }
 
     .wwd__cards {
@@ -323,10 +324,11 @@
     }
 
     .cards__img-blk {
-      height: 45%;
+      height: 55%;
       display: grid;
       place-content: center;
       transition: 0.125s ease-out;
+      margin-bottom: 2rem;
     }
     .cards__img-blk:hover svg {
       transform: scale(1.2);
@@ -346,7 +348,7 @@
 
     .cards__heading-blk {
       width: 100%;
-      margin-bottom: 2.5rem;
+      margin-bottom: 1.6rem;
       font-weight: 700;
     }
 
